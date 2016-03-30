@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>e_scripted_actions();
 e_dialogs();
+e_player_sm();
 
 sys_init();
 sys_init_dialogs();

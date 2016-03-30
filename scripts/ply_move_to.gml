@@ -28,4 +28,8 @@ for (var i=0;i<height;i++){
     }
 }
 
+if (pip){
+    state = E_PSM.WALK;
+}
+
 return pip;

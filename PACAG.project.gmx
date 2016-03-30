@@ -7,7 +7,18 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Player">
-      <sprite>sprites\spr_player</sprite>
+      <sprites name="Stand">
+        <sprite>sprites\spr_player_stand_front</sprite>
+        <sprite>sprites\spr_player_stand_right</sprite>
+        <sprite>sprites\spr_player_stand_back</sprite>
+        <sprite>sprites\spr_player_stand_left</sprite>
+      </sprites>
+      <sprites name="Walk">
+        <sprite>sprites\spr_player_walk_front</sprite>
+        <sprite>sprites\spr_player_walk_right</sprite>
+        <sprite>sprites\spr_player_walk_left</sprite>
+        <sprite>sprites\spr_player_walk_back</sprite>
+      </sprites>
     </sprites>
     <sprites name="System">
       <sprite>sprites\spr_font</sprite>
@@ -54,6 +65,7 @@
     <scripts name="Enums">
       <script>scripts\e_scripted_actions.gml</script>
       <script>scripts\e_dialogs.gml</script>
+      <script>scripts\e_player_sm.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
