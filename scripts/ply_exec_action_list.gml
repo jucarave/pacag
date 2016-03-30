@@ -42,4 +42,13 @@ switch (action_id){
         
         repeat (3){ ds_list_delete(action_list, 0); }
         break;
+        
+    case E_ACTIONS.LOOK_AT:
+        var _x = ds_list_find_value(action_list, 1);
+        var _y = ds_list_find_value(action_list, 2);
+        
+        ply_look_at(_x, _y);
+        
+        repeat (3){ ds_list_delete(action_list, 0); }
+        break;
 }

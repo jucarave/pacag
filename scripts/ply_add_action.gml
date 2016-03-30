@@ -21,4 +21,8 @@ switch (action_id){
     case E_ACTIONS.USE_ITEM:
         ds_list_add(action_list, E_ACTIONS.USE_ITEM, params[0], params[1]);
         break;
+        
+    case E_ACTIONS.LOOK_AT:
+        ds_list_add(action_list, E_ACTIONS.LOOK_AT, params[0], params[1]);
+        break;
 }

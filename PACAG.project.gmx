@@ -56,6 +56,7 @@
       <script>scripts\ply_exec_action_list.gml</script>
       <script>scripts\ply_add_action.gml</script>
       <script>scripts\ply_cancel_actions.gml</script>
+      <script>scripts\ply_look_at.gml</script>
     </scripts>
     <scripts name="Utils">
       <script>scripts\array_create.gml</script>
